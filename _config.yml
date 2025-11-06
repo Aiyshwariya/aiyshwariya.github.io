@@ -1,9 +1,7 @@
 # ================================================================
 # Site Configuration for Aiyshwariya's Professional Website
-# Built using Jekyll + academicpages template
 # ================================================================
 
-# === Basic Site Settings ===
 title: "Aiyshwariya"
 description: "Applied Scientist | Machine Learning | Sustainability"
 url: "https://aiyshwariya.github.io"
@@ -11,23 +9,22 @@ baseurl: ""  # Leave empty for GitHub Pages user site
 repository: "aiyshwariya/aiyshwariya.github.io"
 locale: "en-US"
 
-# === Author Information ===
 author:
   name: "Aiyshwariya"
   bio: "Applied Scientist at Amazon | Machine Learning for Environmental Sustainability"
-  avatar: "profile.jpg"
-  email: "aiyshwariyaa28@gmail.com"
+  avatar: "profile.png"
+  email: "aiyshwariya@gmail.com"
   location: "Seattle, WA, USA"
+  github: "aiyshwariya"
   linkedin: "aiyshwariya"
 
-# === Theme and Appearance ===
-site_theme: "default"   # You can switch to "air" for a cleaner look
+# Theme and Appearance
+site_theme: "default"
 title_separator: "-"
 breadcrumbs: false
 read_more: "disabled"
 
-# === Navigation (top bar) ===
-# Define your tabs and their page links here
+# Navigation
 navbar:
   - title: "Home"
     url: "/"
@@ -42,13 +39,13 @@ navbar:
   - title: "CV / Contact"
     url: "/contact/"
 
-# === Collections (leave minimal for now) ===
+# Collections
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:title/
 
-# === Defaults ===
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -57,18 +54,13 @@ defaults:
       layout: single
       author_profile: true
 
-# === Plugins ===
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
 
-whitelist:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jemoji
-
-# === Markdown and Syntax ===
+# Markdown & Syntax
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -76,7 +68,7 @@ kramdown:
   hard_wrap: false
   toc_levels: 1..6
 
-# === Social Sharing (optional, minimal setup) ===
+# Social
 social:
   type: "Person"
   name: "Aiyshwariya"
@@ -84,16 +76,11 @@ social:
     - "https://github.com/aiyshwariya"
     - "https://linkedin.com/in/aiyshwariya"
 
-# === SEO & Analytics (optional) ===
-analytics:
-  provider: "false"
+# Permalinks
+permalink: /:title/   # Keep for internal pages
+homepage_permalink: "/"  # Custom field for root index
 
-# === Output and Performance ===
-permalink: /:title/
-timezone: "America/Los_Angeles"
-encoding: "utf-8"
-
-# === Exclude unnecessary files ===
+# Exclude
 exclude:
   - README.md
   - Gemfile
@@ -108,9 +95,3 @@ exclude:
   - Dockerfile
   - "*.sublime-*"
   - "*.code-workspace"
-
-# === HTML Compression ===
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
