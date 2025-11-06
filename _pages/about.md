@@ -1,6 +1,7 @@
 
 ---
 title: "About"
+layout: archive
 ---
 
 Hi, I'm **Aiyshwariya**, an Applied Scientist at **Amazon**, where I develop and deploy large-scale machine learning models that power forecasting and customer experience initiatives. I have a strong background in **statistical machine learning**, with experience spanning predictive modeling, NLP, recommender systems, and data-driven optimization.
