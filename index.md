@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: splash
 title: "Home"
 permalink: "/"  # ensures homepage is served at root
 ---
