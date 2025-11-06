@@ -1,185 +1,119 @@
-# ============================================================
-#   Aiyshwariya’s Academic Website Configuration
-# ============================================================
+# ================================================================
+# Site Configuration for Aiyshwariya's Professional Website
+# Built using Jekyll + academicpages template
+# ================================================================
 
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" 
-title                    : "Aiyshwariya"
-title_separator          : "-"
-name                     : &name "Aiyshwariya"
-description              : &description "Applied Scientist | Machine Learning | Sustainability"
-url                      : "https://aiyshwariya.github.io"
-baseurl                  : ""
-repository               : "aiyshwariya/aiyshwariya.github.io"
+# === Basic Site Settings ===
+title: "Aiyshwariya"
+description: "Applied Scientist | Machine Learning | Sustainability"
+url: "https://aiyshwariya.github.io"
+baseurl: ""  # Leave empty for GitHub Pages user site
+repository: "aiyshwariya/aiyshwariya.github.io"
+locale: "en-US"
 
-# Author Information (Displayed on sidebar/about)
+# === Author Information ===
 author:
-  avatar           : "profile.png"
-  name             : "Aiyshwariya"
-  pronouns         : "she/her"
-  bio              : "Applied Scientist with expertise in machine learning and a passion for environmental sustainability. Experienced in statistical modeling, data analytics, and developing scalable AI solutions for real-world impact."
-  location         : "United States"
-  employer         : "Amazon"
-  uri              : 
-  email            : "aiyshwariya@gmail.com"
+  name: "Aiyshwariya"
+  bio: "Applied Scientist at Amazon | Machine Learning for Environmental Sustainability"
+  avatar: "profile.png"
+  email: "aiyshwariya@gmail.com"
+  location: "Seattle, WA, USA"
+  github: "aiyshwariya"
+  linkedin: "aiyshwariya"
+  googlescholar: ""  # optional placeholder
+  orcid: ""  # optional placeholder
 
-  # Academic websites
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : 
-  researchgate     : 
-  scopus           : 
+# === Theme and Appearance ===
+site_theme: "default"   # You can switch to "air" for a cleaner look
+title_separator: "-"
+breadcrumbs: false
+read_more: "disabled"
 
-  # Repositories
-  github           : "aiyshwariya"
+# === Navigation (top bar) ===
+# Define your tabs and their page links here
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Applied Work"
+    url: "/applied-work/"
+  - title: "Mentorship & Community"
+    url: "/mentorship/"
+  - title: "Hobbies"
+    url: "/hobbies/"
+  - title: "CV / Contact"
+    url: "/contact/"
 
-  # Social Media
-  linkedin         : "aiyshwariya"
-  bluesky          : 
-  twitter          : 
-
-# Publication Categories
-publication_category:
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-
-# Site Settings
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-
-# Comments
-comments:
-  provider               : false
-
-# Atom Feed
-atom_feed:
-  hide                   : false
-  path                   : feed.xml
-
-# Analytics (optional)
-analytics:
-  provider               : false
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - node_modules
-  - tmp
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-
-# Collections
+# === Collections (leave minimal for now) ===
 collections:
-  teaching:
+  pages:
     output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /:path/
 
-# Defaults for Layouts
+# === Defaults ===
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-  - scope:
-      path: ""
-      type: pages
+      type: "pages"
     values:
       layout: single
       author_profile: true
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Etc/UTC
-
-# Plugins
+# === Plugins ===
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jemoji
 
 whitelist:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jemoji
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# === Markdown and Syntax ===
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 1..6
 
-# HTML Compression
+# === Social Sharing (optional, minimal setup) ===
+social:
+  type: "Person"
+  name: "Aiyshwariya"
+  links:
+    - "https://github.com/aiyshwariya"
+    - "https://linkedin.com/in/aiyshwariya"
+
+# === SEO & Analytics (optional) ===
+analytics:
+  provider: "false"
+
+# === Output and Performance ===
+permalink: /:title/
+timezone: "America/Los_Angeles"
+encoding: "utf-8"
+
+# === Exclude unnecessary files ===
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - vendor
+  - tmp
+  - _site
+  - .sass-cache
+  - .jekyll-cache
+  - Dockerfile
+  - "*.sublime-*"
+  - "*.code-workspace"
+
+# === HTML Compression ===
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Main navigation links
-main:
-  - title: "Home"
-    url: /
-  - title: "Research"
-    url: /research/
-  - title: "Applied Work"
-    url: /applied/
-  - title: "Mentorship"
-    url: /mentorship/
-  - title: "Hobbies"
-    url: /hobbies/
-  - title: "CV / Contact"
-    url: /contact/
