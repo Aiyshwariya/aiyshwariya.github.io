@@ -15,13 +15,10 @@ locale: "en-US"
 author:
   name: "Aiyshwariya"
   bio: "Applied Scientist at Amazon | Machine Learning for Environmental Sustainability"
-  avatar: "profile.png"
-  email: "aiyshwariya@gmail.com"
+  avatar: "profile.jpg"
+  email: "aiyshwariyaa28@gmail.com"
   location: "Seattle, WA, USA"
-  github: "aiyshwariya"
   linkedin: "aiyshwariya"
-  googlescholar: ""  # optional placeholder
-  orcid: ""  # optional placeholder
 
 # === Theme and Appearance ===
 site_theme: "default"   # You can switch to "air" for a cleaner look
