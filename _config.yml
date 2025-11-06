@@ -168,3 +168,18 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Main navigation links
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Applied Work"
+    url: /applied/
+  - title: "Mentorship"
+    url: /mentorship/
+  - title: "Hobbies"
+    url: /hobbies/
+  - title: "CV / Contact"
+    url: /contact/
