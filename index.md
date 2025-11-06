@@ -1,16 +1,11 @@
 ---
-layout: splash
+layout: archive
 title: "Home"
-permalink: "/"  # ensures homepage is served at root
+permalink: "/"          # homepage at root
+avatar: "profile.jpg"   # profile image
+bio: "Applied Scientist at Amazon | ML for Environmental Sustainability"
+include_page: about     # pull content from _pages/about.md
+# background_image: "assets/images/bg-home.jpg"  # optional
 ---
 
-# Welcome to My Professional Website
 
-Hello! I’m **Aiyshwariya**, an Applied Scientist at Amazon working at the intersection of **Machine Learning** and **Environmental Sustainability**.
-
-You can explore my work in:
-- [Research](/research/)
-- [Applied Work](/applied-work/)
-- [Mentorship & Community](/mentorship/)
-- [Hobbies](/hobbies/)
-- [CV / Contact](/contact/)
