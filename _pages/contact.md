@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV / Contact"
 permalink: /contact/
 ---
 
@@ -11,8 +10,7 @@ You can reach me at:
 
 ---
 
-### Find me online
-- [LinkedIn](https://www.linkedin.com/in/aiyshwariya)
+#### Find me online: [LinkedIn](https://www.linkedin.com/in/aiyshwariya)
 ---
 
-For a full overview of my experience and education, you can also view my [CV](#) (PDF).
+For a full overview of my experience and education, you can also view my [CV](/files/CV_Aiyshwariya.pdf) (PDF).

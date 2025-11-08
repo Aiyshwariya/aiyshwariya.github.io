@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Applied Work"
 permalink: /applied_work/
 ---
 

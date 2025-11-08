@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Mentorship & Community"
 permalink: /mentorship/
 ---
 

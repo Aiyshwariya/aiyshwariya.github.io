@@ -6,7 +6,4 @@ permalink: /hobbies/
 
 # Outside the world of models and data.
 
-When I’m not immersed in code or research, I enjoy activities that balance analytical thinking with creativity.  
-I’m an **avid swimmer**, having represented **IIT Madras** at inter-university meets — swimming remains both a grounding and meditative practice for me.
-
-Travel and cultural exploration are other big parts of my life; I’m continually inspired by how communities across the world adapt to and coexist with their environments.
+When I’m not working on research or applied projects, I love spending time outdoors and unwinding through simple joys. I can usually be found playing with my dog, reading a good book, or enjoying a board game with friends. I swim year-round, ski through the winter, and spend my summers hiking and camping under open skies.
