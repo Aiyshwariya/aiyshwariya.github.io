@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Aiyshwariya | Machine Learning & Sustainability"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,7 +24,7 @@ repository               : "aiyshwariya/aiyshwariya.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Aiyshwariya"
+  name             : "Aiyshwariya Paulvannan Kanmani"
   pronouns         : # example: "she/her"  
   bio              : "Applied Scientist at Amazon | ML for Environmental Sustainability"
   location         : "Seattle, WA"
