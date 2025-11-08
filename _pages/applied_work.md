@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Applied Work"
-permalink: /applied-work/
+permalink: /applied_work/
 ---
 
 # Bringing scientific thinking to real-world systems.

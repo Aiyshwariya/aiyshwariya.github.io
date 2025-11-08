@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Beyond Work"
-permalink: /beyond-work/
+permalink: /hobbies/
 ---
 
 # Outside the world of models and data.
